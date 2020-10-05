@@ -1,0 +1,27 @@
+#root{
+    width: 500px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(7, 1fr);
+   
+}
+
+.item{
+    display: grid;
+    justify-content:  center;
+    align-content: center;
+    border: solid thin black;
+    font-size: 50px;
+}
+
+.item[data-color="♥"]{
+    color: red;
+}
+.item[data-color="♦"]{
+    color: red;
+}
+
+.yellow{
+    background-color: rgb(190, 184, 184);
+}
